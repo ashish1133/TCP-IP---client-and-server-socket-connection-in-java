@@ -9,7 +9,7 @@ public class server{
     public server(int port){
         try {
             server = new ServerSocket( port);
-            System.out.println("server is connecte");
+            System.out.println("server is connected");
 
             System.out.println("waiting for client");
 
